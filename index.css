@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+
+    height: 80px;
+    color: aliceblue;
+    background-color: blue;
+    padding:12px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;    
+}
+@media (max-width: 768px) {
+    .header{
+        height: 80px;
+        color: aliceblue;
+        background-color: blue;
+        padding:12px;
+        text-align:left;
+        font-size: 20px;
+        font-weight: 500;   
+    }
+
+}
+.parent{
+    background-color: red;
+    width: 95%;
+   height: 500px;
+   position:relative
+   
+}
+@media (max-width: 768px) {
+    .parent{
+        background-color: red;
+       position:relative
+       
+    } 
+}
+.parent P{
+position: absolute;
+top:0px;
+left: 43%;
+}
+@media (max-width: 768px) {
+    .parent P{
+        position: absolute;
+        top:40%;
+        left: 26%;
+    }
+
+}
+
+.parent ul li{
+   font-size: 20px;
+   font-weight: bold;
+   color:aliceblue;
+   list-style-type:none;
+    background-color: blue;
+    margin-top:5px ;
+    margin-bottom: 5px;
+    width: 35%;
+    height: 40px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .parent ul li{
+        font-size: 20px;
+        font-weight: bold;
+        color:aliceblue;
+        list-style-type:none;
+         background-color: blue;
+         margin-top:5px ;
+         margin-bottom: 5px;
+         margin-left: 90px;
+         width: 65%;
+         height: 40px;
+         text-align: center;
+     }
+
+}
+@media (max-width: 768px) {
+   .parent .side{
+        height:30%;
+        background-color:gray;
+        width: 100%;
+        position: absolute;
+        top: 69%;
+         
+}
+
+}
+.side{
+    width: 320px;
+    height:100%;
+    background-color: blue;
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    
+}
+.parent .side h{
+display: block;
+padding-top: 19%;
+padding-bottom:19% ;
+padding-left: 30%;
+}@media (max-width: 768px) {
+    .parent .side h{
+        display: block;
+        padding-top: 3%;
+        padding-bottom:1% ;
+        padding-left: 40%; 
+    }
+}
